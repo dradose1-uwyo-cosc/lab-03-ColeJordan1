@@ -3,7 +3,7 @@
 # Submission Date: 9/26/2024
 # Lab 03 
 # Lab Section: 12
-# Sources, people worked with, help given to: 
+# Sources, people worked with, help given to: Peter Martinez, Chauncy Hendon
 # your
 # comments
 # here
@@ -43,18 +43,22 @@ print("Part Two-----------------------------------------------------------------
 states.append("Washington")
 states.append("Oregon")
 states.append("California")
+print(states)
 
 #Again using the specific syntax mentioned in class overwrite the second to last element to be Maine, printing the list 
 
 states[-2] = "Maine"
+print(states)
 
 #Insert the state Texas to be the third element in the list, again printing your list
 
 states.insert(2,"Texas")
+print(states)
 
 #Using the `del` statement remove the fourth item from the list, print your list 
 
 del states[3]
+print(states)
 
 #Remove Texas using its value, print the list
 
